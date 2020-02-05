@@ -16,9 +16,7 @@ function calculate(operator, a, b) {
     case 'sign':
       return Math.sign(a);
     case 'reciprocal':
-      if (a === 5) {
-        return 1 / a;
-      }
+      return 1 / a;
     default:
       break;
   }
