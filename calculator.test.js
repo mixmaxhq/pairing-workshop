@@ -34,4 +34,5 @@ test("test sqrt", () => {
 
 test("test sign", () => {
   expect(calculate("sign", 5)).toBe(1);
+  expect(calculate("sign", -3)).toBe(-1);
 });
