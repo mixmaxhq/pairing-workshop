@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^25.1.0"
+  },
+  "devDependencies": {
+    "@mixmaxhq/prettier-config": "^1.0.0",
+    "prettier": "^1.19.1"
   }
 }
