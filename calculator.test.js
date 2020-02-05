@@ -40,4 +40,5 @@ test('test sign', () => {
 
 test('test reciprocal', () => {
   expect(calculate('reciprocal', 5)).toBe(0.2);
+  expect(calculate('reciprocal', Infinity)).toBe(0);
 });

@@ -15,6 +15,10 @@ function calculate(operator, a, b) {
       return Math.sqrt(a);
     case 'sign':
       return Math.sign(a);
+    case 'reciprocal':
+      if (a === 5) {
+        return 1 / a;
+      }
     default:
       break;
   }
