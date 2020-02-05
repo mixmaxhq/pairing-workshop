@@ -31,3 +31,7 @@ test("test sqrt", () => {
   expect(calculate("√", 9)).toBe(3);
   expect(calculate("√", -1)).toEqual(NaN);
 });
+
+test("test sign", () => {
+  expect(calculate("sign", 5)).toBe(1);
+});
